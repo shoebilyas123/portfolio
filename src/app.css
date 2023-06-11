@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--bg-dark-prim-gr: #0d0817;
+	--bg-dark-sec-gr: #070212;
+}
+
+body {
+	min-height: 100vh;
+	background: linear-gradient(120deg, var(--bg-dark-prim-gr), var(--bg-dark-sec-gr));
+	color: white;
+}
