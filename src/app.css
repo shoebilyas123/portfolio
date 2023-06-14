@@ -9,6 +9,7 @@
 
 body {
 	min-height: 100vh;
-	background: linear-gradient(120deg, var(--bg-dark-prim-gr), var(--bg-dark-sec-gr));
+	background: radial-gradient(ellipse at top, #2e305f, var(--bg-dark-prim-gr)),
+		radial-gradient(ellipse at bottom, var(--bg-dark-sec-gr), #480966);
 	color: white;
 }

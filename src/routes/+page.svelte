@@ -31,6 +31,10 @@
 </script>
 
 <div class=" flex items-center justify-center min-h-screen min-w-screen space-x-60">
+	<div
+		class="min-h-[240px] min-w-[240px] bg-white absolute"
+		style="background: radial-gradient();"
+	/>
 	<div class="flex flex-col space-y-4">
 		{#each $socialsData.list as { icon, href }, i}
 			<div
