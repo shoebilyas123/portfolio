@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -21,6 +22,25 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.main-container {
+  background: var(--dark-secondary);
+}
+
+.home-title {
+  font-family: 'Titan One', sans-serif;
+  font-size: 2.2rem;
+  color: white;
+}
+
+.home-skills-tagline {
+  color: #c2c2c2;
+}
+
+.home-title .my-name {
+  font-size: larger;
+  color: var(--theme-color);
 }
 
 .social-icon:hover {

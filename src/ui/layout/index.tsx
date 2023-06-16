@@ -4,8 +4,10 @@ import PageLink from '~/components/molecules/pagelink';
 
 const Layout: FC<any> = ({ children }) => {
   return (
-    <div className="w-screen h-screen flex items-center justify-between">
-      <main>{children}</main>
+    <div className="main-container w-screen h-screen flex items-center justify-between">
+      <main className="w-[75%] px-16 flex items-center justify-center">
+        {children}
+      </main>
 
       {/* Sidebar */}
       <div className="sidebar h-full hidden ml-auto w-[25%] md:flex flex-col justify-center p-6">
