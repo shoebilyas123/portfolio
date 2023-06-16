@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
+  --theme-color: #12a481;
+  --dark-primary: #0b0b0b;
+  --dark-secondary: #0f0f0f;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -16,4 +21,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.social-icon:hover {
+  color: var(--theme-color);
+}
+
+.sidebar .page-links span:hover {
+  color: var(--theme-color);
+}
+.sidebar .link-container {
+  background: var(--theme-color);
+}
+
+.sidebar {
+  background: var(--dark-primary);
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 2.2rem;
 }
